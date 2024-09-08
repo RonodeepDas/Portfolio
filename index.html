@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/25c17935ef.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img
+            src="Images/Web Developer Portfolio Presentation.jpg"
+            width="250"
+            class="logo"
+          />
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Blockchain Developer</p>
+          <h1>Hi, I'm Ronodeep Das<br />from India</h1>
+        </div>
+      </div>
+    </div>
+    <!-- ------------about----------- -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/Screenshot 2024-07-17 150640.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hey there! I'm Ronodeep Das, a second-year B.Tech student
+              passionate about blockchain technology. I love diving into
+              blockchain development and exploring its potential in creating
+              secure, efficient solutions. Beyond that, I'm into web and mobile
+              app development. Join me on my journey as I explore tech
+              innovation and share my projects and insights!
+            </p>
+
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Solana?Ethereum</span><br />Building Web3 interference
+                </li>
+                <li>
+                  <span>Solana Development</span><br />Solana app development
+                </li>
+                <li>
+                  <span>Ethereum Development</span><br />Ethereum Development
+                  interference
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span>2023-2027</span><br />Student at RCCIIT</li>
+                <li><span>2020-2022</span><br />12th from MPS</li>
+                <li><span>2018-2020</span><br />10 th from Vidya Mandir</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------services---------------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-bitcoin"></i>
+            <h2>Web3</h2>
+            <p>
+              I offer Web3 Coinbase services, leveraging blockchain technology
+              to enhance security, transparency, and functionality. This
+              includes issuing tamper-proof certificates, utilizing
+              decentralized storage for secure data management, implementing
+              blockchain-based authentication for safer logins, automating
+              transactions with smart contracts, and tokenizing assets for
+              efficient management. These services ensure a robust and
+              trustworthy platform, catering to diverse digital needs with
+              innovative blockchain solutions.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-ethereum"></i>
+            <h2>Blockchain</h2>
+            <p>
+              I showcase blockchain mining services that utilize cutting-edge
+              technology to enhance security, transparency, and operational
+              efficiency. This includes leveraging blockchain for tamper-proof
+              data integrity, employing decentralized storage solutions for
+              secure data management, implementing blockchain-based
+              authentication to ensure safe access, utilizing smart contracts
+              for automated processes, and exploring tokenization for efficient
+              asset management. These services are designed to provide robust
+              and reliable solutions, empowering businesses and individuals in
+              the digital economy.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -------------------portfolio---------------------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">Portfolio</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/getty_822353530_375041.jpg" />
+            <div class="layer">
+              <h3>Decentralized Finance (DeFi) Platforms</h3>
+              <p>
+                DeFi platforms enable users to access financial services like
+                lending, borrowing, trading, and earning interest without the
+                need for traditional banks. Examples include building
+                decentralized exchanges (DEXs), lending protocols, and yield
+                farming platforms.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/how-does-phone-tracker-work.png" />
+            <div class="layer">
+              <h3>Non-Fungible Token (NFT) Marketplaces</h3>
+              <p>
+                NFT marketplaces allow users to create, buy, sell, and trade
+                unique digital assets such as art, music, videos, and virtual
+                real estate. Developers can build platforms that facilitate
+                these transactions, ensure secure ownership transfers, and
+                support various NFT standards.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/pexels-fotios-photos-1092644.jpg" />
+            <div class="layer">
+              <h3>Supply Chain Management Systems</h3>
+              <p>
+                Blockchain can enhance transparency, traceability, and
+                efficiency in supply chains. Developers can create systems that
+                track the movement of goods from production to delivery,
+                ensuring authenticity and reducing fraud.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- ------------contact---------- -->
+    <div id="contact">
+      <div class="contact">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>dasronodeep23@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>+91 9123234101</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/ronodeepdas/"
+                ><i class="fa-brands fa-linkedin-in"></i
+              ></a>
+              <a href="https://x.com/RonodeepDas23"
+                ><i class="fa-brands fa-x-twitter"></i
+              ></a>
+            </div>
+            <br />
+            <a href="Images/Resume.pdf" download class="btn btn2"
+              >DOWNLOAD RÉSUMÉ</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright registered in the name of Ronodeep Das</p>
+        </div>
+      </div>
+    </div>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "<https://script.google.com/macros/s/AKfycbwHeddbrIFsR7LonIw-YN_tSAYaGRRe4_WXEg953m0NQqLBECunaPdcu1PXIRALV8VL/exec>";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg");
+
+      form
+        .addEventListener("submit", (e) => {
+          e.preventDefault();
+          fetch(scriptURL, { method: "POST", body: new FormData(form) }).then(
+            (response) => {
+              msg.innerHTML = "";
+            },
+            5000
+          );
+          form.reset();
+        })
+        .catch((error) => console.error("Error!", error.message));
+    </script>
+  </body>
+</html>
